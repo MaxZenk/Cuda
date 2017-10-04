@@ -1,0 +1,383 @@
+@import 'http://webfonts.ru/import/titillium.css';
+body {
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	min-width: 360px;
+}
+body * {
+	box-sizing: border-box;
+}
+body a {
+	text-decoration: none !important;
+}
+ul > li {
+	display: inline-block;
+	font-size: 16px;
+	list-style: none;
+	text-transform: uppercase;
+}
+.row {
+	margin: 0 auto;
+	max-width: 1172px;
+	width: 100%;
+}
+.welcome,
+.services,
+.testimonials,
+.get-in-touch,
+footer {
+	color: #fff;
+}
+.team,
+.skills {
+	color: #3c4761;
+}
+.welcome {
+	background-color: #864f9c;
+	padding: 60px 0 145px;
+}
+.welcome .logo {
+	background-image: url(../images/logo.svg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 40px;
+	margin: 0 0 0 25px;
+	width: 120px;
+}
+.welcome .top-menu {
+	float: right;
+}
+.welcome .top-menu ul {
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+.welcome .top-menu ul li a {
+	color: #fff;
+	display: block;
+	height: 32px;
+	letter-spacing: .2px;
+	line-height: 32px;
+	padding: 0 1.13em;
+	text-align: center;
+}
+.welcome .top-menu ul li a:hover {
+	background-color: #633a79;
+	border-radius: 5px;
+}
+.welcome .tagline {
+	font-size: 42.2px;
+	font-weight: bold;
+	letter-spacing: -.2px;
+	line-height: 48.8px;
+	margin: 125px auto 55px;
+	text-align: center;
+}
+.big-button a {
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	height: 70px;
+	line-height: 70px;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	width: 290px;
+}
+.welcome .big-button a {
+	background-color: #eb7d4b;
+	border-bottom: 4px solid #c86a40;
+}
+.little-title {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.little-subtitle {
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 24px;
+	text-align: center;
+}
+.services {
+	background-color: #16c2a3;
+}
+.services .little-title {
+	padding-top: 50px;
+}
+.services .little-subtitle {
+	padding: 25px 30px 0;
+}
+.services,
+.team {
+	padding: 115px 0 120px;
+}
+.services-icons {
+	margin-top: 75px;
+}
+.services-icons-branding,
+.services-icons-design,
+.services-icons-development,
+.services-icons-rocket-science {
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 135px;
+	margin: 0 auto;
+	width: 160px;
+}
+.services-icons-branding {
+	background-image: url(../images/flag-icon.png);
+	background-position-x: 7px;
+	background-position-y: 3px;
+	background-size: 120px 124px;
+	-ms-background-position-x: 7px;
+	-ms-background-position-y: 3px;
+}
+.services-icons-design {
+	background-image: url(../images/crayon-icon.png);
+	background-position-x: 33px;
+	background-position-y: -1px;
+	background-size: 90px 131px;
+	-ms-background-position-x: 33px;
+	-ms-background-position-y: -1px;
+}
+.services-icons-development {
+	background-image: url(../images/gears-icon.png);
+	background-size: 159px 126px;
+}
+.services-icons-rocket-science {
+	background-image: url(../images/rocket-icon.png);
+	background-position-x: 48px;
+	background-position-y: 0;
+	background-size: 95px 134px;
+}
+.title {
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.title:after {
+	background-color: rgba(0,0,0,.15);
+	content: '';
+	display: block;
+	height: 4px;
+	margin: 20px auto 25px;
+	width: 87px;
+}
+.subtitle {
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+}
+.team {
+	background-color: #e7f1f8;
+}
+.team .little-title {
+	padding-top: 35px;
+}
+.team .little-subtitle {
+	padding: 25px 25px;
+}
+.image-member {
+	background-color: #878787;
+	border-radius: 50%;
+	height: 200px;
+	margin: 75px auto 0;
+	overflow: hidden;
+	width: 200px;
+}
+.social-icons {
+	text-align: center;
+}
+.social-icons a {
+	display: inline-block;
+}
+.social-icons a[href=''] {
+	display: none;
+}
+.circle {
+	background-color: #bdd1df;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+.circle[class*='icon'] {
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	margin: 0 5px;
+	-ms-background-position-x: center;
+	-ms-background-position-y: center;
+	-webkit-background-size: 15px 15px;
+}
+.icon1 {
+	background-image: url(../images/facebook-logo.svg);
+}
+.icon2 {
+	background-image: url(../images/twitter-logo.svg);
+}
+.icon3 {
+	background-image: url(../images/linkedin-logo.svg);
+}
+.icon4 {
+	background-image: url(../images/mail_classic.svg);
+}
+.little-specialty {
+	color: #30bae7;
+	font-size: 16px;
+	line-height: 18px;
+	padding-top: 15px;
+	text-align: center;
+}
+.skills {
+	background-color: #fff;
+	padding: 115px 0 110px;
+}
+.portfolio {
+	background-color: #fd9;
+	color: #393939;
+	padding: 120px 0 100px;
+}
+.portfolio-items-menu {
+	padding: 40px 0 65px;
+	text-align: center;
+}
+.pfi-menu {
+	margin: 0;
+	padding: 0;
+}
+.pfi-menu li:last-child {
+	padding-right: 0;
+}
+.pfi-menu li {
+	padding-right: 10px;
+}
+.portfolio-items-menu ul li a:hover {
+	background-color: #fff;
+}
+.portfolio-items-menu ul li a {
+	background-color: #ebc985;
+	border-radius: 5px;
+	color: #393939;
+	display: block;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 25px;
+}
+.title-image img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.title-desc {
+	font-size: 18px;
+	line-height: 20px;
+	margin: 30px 0 65px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.portfolio .big-button a {
+	background-color: #17c2a4;
+	border-bottom: 4px solid #14a58c;
+}
+.testimonials {
+	background-color: #d74580;
+	padding: 120px 0 130px;
+}
+.testimonials-user {
+	margin: 70px 0 30px;
+}
+.testimonials-image {
+	border-radius: 50%;
+}
+.testimonials-comment {
+	font-size: 21px;
+	font-style: italic;
+	line-height: 31px;
+	padding-bottom: 25px;
+}
+.testimonials-name {
+	font-size: 24px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.testimonials-specialty {
+	color: #fd9;
+	font-size: 18px;
+	line-height: 26px;
+}
+.get-in-touch {
+	background-color: #3c5399;
+	padding: 120px 0 110px;
+}
+.get-in-touch .subtitle {
+	padding-bottom: 75px;
+}
+.get-in-touch .big-button a {
+	background-color: #30bae7;
+	border-bottom: 4px solid #299ec5;
+}
+.get-in-touch--username,
+.get-in-touch--email {
+	background: #273a71;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	height: 55px;
+	line-height: 45px;
+	padding: 5px 15px;
+	width: 100%;
+	margin: 5px 0;
+}
+.get-in-touch--message {
+	background: #273a71;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	height: 200px;
+	line-height: 18px;
+	margin-top: 20px;
+	padding: 25px 15px;
+	width: 100%;
+}
+.get-in-touch--button {
+	background-color: none;
+	background-color: #2fb9e7;
+	border: none;
+	border-bottom: 4px solid #289dc5;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	height: 70px;
+	line-height: 70px;
+	margin: 55px auto auto;
+	text-align: center;
+	text-transform: uppercase;
+	width: 290px;
+}
+footer {
+	background-color: #334b8e;
+}
+.social a:hover {
+	color: #30bae7;
+}
+.social a {
+	color: #fff;
+	display: block;
+	font-size: 24px;
+	line-height: 30px;
+	padding: 30px 45px 20px 0;
+	text-align: center;
+	text-transform: none;
+}

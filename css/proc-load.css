@@ -1,0 +1,84 @@
+/* Load animation */
+@-webkit-keyframes
+load { 0% {
+stroke-dashoffset:0
+}
+}
+@-moz-keyframes
+load { 0% {
+stroke-dashoffset:0
+}
+}
+@keyframes
+load { 0% {
+stroke-dashoffset:0
+}
+}
+/* Container */
+.progress-svggg {
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	text-align: center;
+}
+.i-need-center{
+	width: 240px;
+	margin: 20px auto;
+}
+/* Item */
+.progress-svggg>li {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: #000;
+	font-family: sans-serif;
+	font-weight: 100;
+	margin: 2rem;
+}
+.progress-svggg>li:before {
+	content: attr(data-name);
+	position: absolute;
+	width: 140%;
+	bottom: -5rem;
+	left: -20%;
+	font-weight: 400;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 18px;
+}
+.progress-svggg>li:after {
+	content: attr(data-percent);
+	position: absolute;
+	width: 100%;
+	top: 6.5rem;
+	left: 0;
+	font-size: 50px;
+	text-align: center;
+}
+.progress-svggg svg {
+	width: 20rem;
+	height: 20rem;
+	padding: 5px;
+}
+.progress-svggg svg:nth-child(2) {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
+.progress-svggg svg:nth-child(2) path {
+	fill: none;
+	stroke-width: 25;
+	stroke-dasharray: 629;
+	stroke: #DFE8ED;
+	-webkit-animation: load 5s;
+	-moz-animation: load 5s;
+	-o-animation: load 5s;
+	animation: load 5s;
+}
