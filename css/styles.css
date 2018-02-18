@@ -399,11 +399,15 @@ ul > li {
   border: none;
   border-bottom: 4px solid #289dc5;
   border-radius: 5px;
-  background-color: none;
+  
   background-color: #2fb9e7;
 }
-footer {
+.footer {
   background-color: #334b8e;
+}
+.social {
+  max-width: 940px;
+  margin: 0 auto;
 }
 .social a:hover {
   color: #30bae7;
