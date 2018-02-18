@@ -8,6 +8,9 @@ body {
 
   min-width: 360px;
 }
+a {
+  text-decoration: none;
+}
 
 ul > li {
   font-size: 16px;
@@ -157,7 +160,7 @@ ul > li {
   background-position-y: 0;
   background-size: 95px 134px;
 }
-.title {
+.section-title {
   font-size: 40px;
   font-weight: bold;
   line-height: 30px;
@@ -166,7 +169,7 @@ ul > li {
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-.title:after {
+.section-title:after {
   display: block;
 
   width: 87px;
@@ -177,7 +180,7 @@ ul > li {
 
   background-color: rgba(0,0,0,.15);
 }
-.subtitle {
+.section-subtitle {
   font-size: 18px;
   line-height: 26px;
 
@@ -293,13 +296,13 @@ ul > li {
   border-radius: 5px;
   background-color: #ebc985;
 }
-.title-image img {
+.section-title-image img {
   display: block;
 
   width: 100%;
   height: 100%;
 }
-.title-desc {
+.section-title-desc {
   font-size: 18px;
   line-height: 20px;
 
@@ -347,7 +350,7 @@ ul > li {
 
   background-color: #3c5399;
 }
-.get-in-touch .subtitle {
+.get-in-touch .section-subtitle {
   padding-bottom: 75px;
 }
 .get-in-touch .big-button a {
