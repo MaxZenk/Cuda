@@ -1,6 +1,5 @@
-.services-col-wrap {
-  text-align: center;
-}
+
+
 body {
   font-family: 'Titillium Web', sans-serif;
 
@@ -41,15 +40,13 @@ ul > li {
   margin: 0;
   padding: 0 10px 0 0;
 }
-.header .main-menu ul li a {
+.header .main-menu a {
   line-height: 32px;
 
   display: block;
 
-  height: 32px;
   padding: 0 1.13em;
 
-  text-align: center;
   letter-spacing: .2px;
 
   color: #fff;
@@ -64,23 +61,29 @@ ul > li {
   line-height: 48.8px;
 
   margin: 125px auto 55px;
-  color: #fff;
+
   text-align: center;
   letter-spacing: -.2px;
+
+  color: #fff;
 }
 .big-button {
-  padding: 20px 0;
-  text-align: center; 
   font-size: 18px;
   font-weight: 400;
+  line-height: 26px;
+
   display: block;
+
   max-width: 293px;
   margin: 0 auto;
+  padding: 20px 0;
+
+  text-align: center;
+  letter-spacing: .27px;
   text-transform: uppercase;
+
   color: #fff;
   border-radius: 5px;
-  line-height: 26px;
-  letter-spacing: 0.27px;
 }
 .header .big-button {
   border-bottom: 4px solid #c86a40;
@@ -103,6 +106,24 @@ ul > li {
 }
 .services {
   background-color: #16c2a3;
+}
+.services .section-subtitle {
+  margin-bottom: 80px;;
+}
+.services-col-wrap {
+  text-align: center;
+}
+.services-col-img {
+  position: relative;
+  height: 145px;
+}
+.services-col-img img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 .services .little-title {
   padding-top: 50px;
@@ -156,7 +177,7 @@ ul > li {
 }
 .section-title {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 30px;
 
   text-align: center;
@@ -176,9 +197,14 @@ ul > li {
 }
 .section-subtitle {
   font-size: 18px;
+  font-weight: 400;
   line-height: 26px;
 
+  max-width: 780px;
+  margin: 0 auto;
+
   text-align: center;
+  letter-spacing: .36px;
 }
 .team {
   background-color: #e7f1f8;
@@ -396,7 +422,6 @@ ul > li {
   border: none;
   border-bottom: 4px solid #289dc5;
   border-radius: 5px;
-  
   background-color: #2fb9e7;
 }
 .footer {
