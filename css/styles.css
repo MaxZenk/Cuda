@@ -233,16 +233,16 @@ ul > li {
           background-size: 15px 15px;
 }
 .icon1 {
-  background-image: url(../images/facebook-logo.svg);
+  background-image: url(../img/team/facebook-logo.svg);
 }
 .icon2 {
-  background-image: url(../images/twitter-logo.svg);
+  background-image: url(../img/team/twitter-logo.svg);
 }
 .icon3 {
-  background-image: url(../images/linkedin-logo.svg);
+  background-image: url(../img/team/linkedin-logo.svg);
 }
 .icon4 {
-  background-image: url(../images/mail_classic.svg);
+  background-image: url(../img/team/mail_classic.svg);
 }
 .little-specialty {
   font-size: 16px;
