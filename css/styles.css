@@ -271,12 +271,13 @@ ul > li {
 }
 .portfolio-items-menu ul li a {
   font-size: 18px;
-  line-height: 40px;
+  line-height: 19.5px;
+
+  letter-spacing: .36px;
 
   display: block;
 
-  height: 40px;
-  padding: 0 25px;
+  padding: 8px 25px;
 
   color: #393939;
   border-radius: 5px;
