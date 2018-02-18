@@ -139,46 +139,7 @@ ul > li {
 .team {
   padding: 115px 0 120px;
 }
-.services-icons {
-  margin-top: 75px;
-}
-.services-icons-branding,
-.services-icons-design,
-.services-icons-development,
-.services-icons-rocket-science {
-  width: 160px;
-  height: 135px;
-  margin: 0 auto;
 
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.services-icons-branding {
-  background-image: url(../images/flag-icon.png);
-      background-position-x: 7px;
-  -ms-background-position-x: 7px;
-      background-position-y: 3px;
-  -ms-background-position-y: 3px;
-  background-size: 120px 124px;
-}
-.services-icons-design {
-  background-image: url(../images/crayon-icon.png);
-      background-position-x: 33px;
-  -ms-background-position-x: 33px;
-      background-position-y: -1px;
-  -ms-background-position-y: -1px;
-  background-size: 90px 131px;
-}
-.services-icons-development {
-  background-image: url(../images/gears-icon.png);
-  background-size: 159px 126px;
-}
-.services-icons-rocket-science {
-  background-image: url(../images/rocket-icon.png);
-  background-position-x: 48px;
-  background-position-y: 0;
-  background-size: 95px 134px;
-}
 .section-title {
   font-size: 40px;
   font-weight: 700;
