@@ -8,12 +8,7 @@ body {
 
   min-width: 360px;
 }
-body * {
-  box-sizing: border-box;
-}
-body a {
-  text-decoration: none !important;
-}
+
 ul > li {
   font-size: 16px;
 
@@ -23,22 +18,9 @@ ul > li {
 
   text-transform: uppercase;
 }
-.row {
-  width: 100%;
-  max-width: 1172px;
-  margin: 0 auto;
-}
-.header,
-.services,
-.testimonials,
-.get-in-touch,
-footer {
-  color: #fff;
-}
-.team,
-.skills {
-  color: #3c4761;
-}
+
+
+
 .header {
   padding: 60px 0 145px;
 
