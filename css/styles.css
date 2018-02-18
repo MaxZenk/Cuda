@@ -64,28 +64,25 @@ ul > li {
   line-height: 48.8px;
 
   margin: 125px auto 55px;
-
+  color: #fff;
   text-align: center;
   letter-spacing: -.2px;
 }
-.big-button a {
+.big-button {
+  padding: 20px 0;
+  text-align: center; 
   font-size: 18px;
-  font-weight: 600;
-  line-height: 70px;
-
+  font-weight: 400;
   display: block;
-
-  width: 290px;
-  height: 70px;
+  max-width: 293px;
   margin: 0 auto;
-
-  text-align: center;
   text-transform: uppercase;
-
   color: #fff;
   border-radius: 5px;
+  line-height: 26px;
+  letter-spacing: 0.27px;
 }
-.header .big-button a {
+.header .big-button {
   border-bottom: 4px solid #c86a40;
   background-color: #eb7d4b;
 }
@@ -308,7 +305,7 @@ ul > li {
   text-align: center;
   text-transform: uppercase;
 }
-.portfolio .big-button a {
+.portfolio .big-button {
   border-bottom: 4px solid #14a58c;
   background-color: #17c2a4;
 }
@@ -350,7 +347,7 @@ ul > li {
 .get-in-touch .section-subtitle {
   padding-bottom: 75px;
 }
-.get-in-touch .big-button a {
+.get-in-touch .big-button {
   border-bottom: 4px solid #299ec5;
   background-color: #30bae7;
 }
