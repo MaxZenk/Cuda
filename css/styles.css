@@ -48,8 +48,6 @@ ul > li {
   padding: 0 1.13em;
 
   letter-spacing: .2px;
-
-  color: #fff;
 }
 .header .main-menu ul li a:hover {
   border-radius: 5px;
@@ -65,6 +63,13 @@ ul > li {
   text-align: center;
   letter-spacing: -.2px;
 
+  
+}
+.header .main-menu a,
+.header .tagline,
+.big-button,
+.services,  
+.social a {
   color: #fff;
 }
 .big-button {
@@ -81,8 +86,7 @@ ul > li {
   text-align: center;
   letter-spacing: .27px;
   text-transform: uppercase;
-
-  color: #fff;
+  
   border-radius: 5px;
 }
 .header .big-button {
@@ -108,7 +112,7 @@ ul > li {
   background-color: #16c2a3;
 }
 .services .section-subtitle {
-  margin-bottom: 80px;;
+  margin-bottom: 70px;;
 }
 .services-col-wrap {
   text-align: center;
@@ -445,5 +449,5 @@ ul > li {
   text-align: center;
   text-transform: none;
 
-  color: #fff;
+  
 }
