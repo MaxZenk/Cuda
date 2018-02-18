@@ -173,6 +173,7 @@ ul > li {
 }
 .team {
   background-color: #e7f1f8;
+  color: #3c4761;
 }
 .team .little-title {
   padding-top: 35px;
@@ -241,7 +242,7 @@ ul > li {
 }
 .skills {
   padding: 115px 0 110px;
-
+  color: #3c4761;
   background-color: #fff;
 }
 .portfolio {
