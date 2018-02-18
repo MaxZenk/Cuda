@@ -1,406 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content="Cuda template">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Cuda</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cuda template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cuda</title>
 
 <!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700"
-		 rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700"
+     rel="stylesheet">
 
 <!--  Bootstrap 4 grid -->
-		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 
 <!-- Reset and Normalize -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
 <!-- Custom CSS -->
-		<link rel="stylesheet" href="css/proc-load.css">
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
+    <link rel="stylesheet" href="css/proc-load.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 
-	<body>
+  <body>
 
 <!-- Header -->
-		<header class="header">
-			<div class="container">
-				<div class="row">
-					<div class="col-2">
-						<a href="#"><img class="logo" src="img/header/logo.svg" alt="logo"></a>
-					</div>
-					<div class="col-10">
-						<nav class="top-menu">
-							<ul>
-								<li><a href="#">home</a></li>
-								<li><a href="#">about</a></li>
-								<li><a href="#">work</a></li>
-								<li><a href="#">blog</a></li>
-								<li><a href="#">contact</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="tagline">Hi there! We are the new kids on the block<br>and we build awesome websites and mobile apps.</div>
-						<div class="big-button"><a href="#">work with us!</a></div>
-					</div>
-				</div>
-			</div>
-		</header>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <a href="#"><img class="logo" src="img/header/logo.svg" alt="logo"></a>
+          </div>
+          <div class="col-10">
+            <nav class="top-menu">
+              <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">work</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="tagline">Hi there! We are the new kids on the block<br>
+              and we build awesome websites and mobile apps.
+            </div>
+            <div class="big-button"><a href="#">work with us!</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
 
 <!-- Services -->
-		<section class="services">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="title">services we provide</div>
-						<div class="subtitle">We are working with both individuals and 
-							businesses from all over the globe<br>to create awesome websites 
-							and applications.
-						</div>
-					</div>
-				</div>	
-				<div class="row">
-					<div class="col-4">
-						<div class="services-col-wrap">
-							<img src="img/services/flag-icon.png" alt="flag-icon">
-							<div class="little-title">branding</div>
-							<div class="little-subtitle">Lorem ipsum dolor sit amet, 
-								consectetuer adipiscing elit, sed diam nonummy nibh.
-							</div>
-						</div>
-						
-						<div class="services-icons">
-							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="services-icons-branding"></div>
-							</div>
-							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="services-icons-design"></div>
-								<div class="little-title">design</div>
-								<div class="little-subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem </div>
-							</div>
-							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="services-icons-development"></div>
-								<div class="little-title">development</div>
-								<div class="little-subtitle">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</div>
-							</div>
-							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="services-icons-rocket-science"></div>
-								<div class="little-title">rocket sciense</div>
-								<div class="little-subtitle">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="team">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="title">meet our beautiful team</div>
-					<div class="subtitle">We are a small team of designers and developers, who help brands with big ideas.</div>
-					<div class="team-members">
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="image-member"><img src="http://placehold.it/200x200" alt=""></div>
-							<div class="little-title">anne hathaway</div>
-							<div class="little-specialty">CEO / Marketing Guru</div>
-							<div class="little-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
-							<div class="social-icons">
-								<a href="#">
-									<div class="circle icon1"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon2"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon3"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon4"></div>
-								</a>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="image-member"><img src="http://placehold.it/200x200" alt=""></div>
-							<div class="little-title">kate upton</div>
-							<div class="little-specialty">Creative Director</div>
-							<div class="little-subtitle">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</div>
-							<div class="social-icons">
-								<a href="">
-									<div class="circle icon1"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon2"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon3"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon4"></div>
-								</a>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="image-member"><img src="http://placehold.it/200x200" alt=""></div>
-							<div class="little-title">olivia wilde</div>
-							<div class="little-specialty">Lead Designer</div>
-							<div class="little-subtitle">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</div>
-							<div class="social-icons">
-								<a href="#">
-									<div class="circle icon1"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon2"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon3"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon4"></div>
-								</a>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="image-member"><img src="http://placehold.it/200x200" alt=""></div>
-							<div class="little-title">ashley greene</div>
-							<div class="little-specialty">SEO / Developer</div>
-							<div class="little-subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</div>
-							<div class="social-icons">
-								<a href="#">
-									<div class="circle icon1"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon2"></div>
-								</a>
-								<a href="">
-									<div class="circle icon3"></div>
-								</a>
-								<a href="#">
-									<div class="circle icon4"></div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="skills">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="title">we got skills!</div>
-					<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</div>
-					<div class="skills-experience">
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="i-need-center">
-								<ul class="progress-svggg">
-									<li data-name="web design" data-percent="90%">
-											<svg viewBox="-10 -10 220 220">
-											<g fill="none" stroke-width="20" transform="translate(100,100)">
-												<path stroke="#2FB9E7" d="M 0,-100 A 100,100 0 0,1 86.6,-50"/>
-												<path stroke="#2FB9E7" d="M 86.6,-50 A 100,100 0 0,1 86.6,50"/>
-												<path stroke="#2FB9E7" d="M 86.6,50 A 100,100 0 0,1 0,100"/>
-												<path stroke="#2FB9E7" d="M 0,100 A 100,100 0 0,1 -86.6,50"/>
-												<path stroke="#2FB9E7" d="M -86.6,50 A 100,100 0 0,1 -86.6,-50"/>
-												<path stroke="#2FB9E7" d="M -86.6,-50 A 100,100 0 0,1 0,-100"/>
-											</g>
-										</svg>
-										<svg viewBox="-10 -10 220 220">
-											<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="565"></path>
-										</svg>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="i-need-center">
-								<ul class="progress-svggg">
-									<li data-name="html / css" data-percent="75%">
-										<svg viewBox="-10 -10 220 220">
-											<g fill="none" stroke-width="20" transform="translate(100,100)">
-												<path stroke="#D7457F" d="M 0,-100 A 100,100 0 0,1 86.6,-50"/>
-												<path stroke="#D7457F" d="M 86.6,-50 A 100,100 0 0,1 86.6,50"/>
-												<path stroke="#D7457F" d="M 86.6,50 A 100,100 0 0,1 0,100"/>
-												<path stroke="#D7457F" d="M 0,100 A 100,100 0 0,1 -86.6,50"/>
-												<path stroke="#D7457F" d="M -86.6,50 A 100,100 0 0,1 -86.6,-50"/>
-												<path stroke="#D7457F" d="M -86.6,-50 A 100,100 0 0,1 0,-100"/>
-											</g>
-										</svg>
-										<svg viewBox="-10 -10 220 220">
-											<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="470"></path>
-										</svg>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="i-need-center">
-								<ul class="progress-svggg">
-									<li data-name="graphic design" data-percent="70%">
-										<svg viewBox="-10 -10 220 220">
-											<g fill="none" stroke-width="20" transform="translate(100,100)">
-												<path stroke="#15C7A7" d="M 0,-100 A 100,100 0 0,1 86.6,-50"/>
-												<path stroke="#15C7A7" d="M 86.6,-50 A 100,100 0 0,1 86.6,50"/>
-												<path stroke="#15C7A7" d="M 86.6,50 A 100,100 0 0,1 0,100"/>
-												<path stroke="#15C7A7" d="M 0,100 A 100,100 0 0,1 -86.6,50"/>
-												<path stroke="#15C7A7" d="M -86.6,50 A 100,100 0 0,1 -86.6,-50"/>
-												<path stroke="#15C7A7" d="M -86.6,-50 A 100,100 0 0,1 0,-100"/>
-											</g>
-										</svg>
-										<svg viewBox="-10 -10 220 220">
-											<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="435"></path>
-										</svg>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<div class="i-need-center">
-								<ul class="progress-svggg">
-									<li data-name="ui / ux" data-percent="85%">
-										<svg viewBox="-10 -10 220 220">
-											<g fill="none" stroke-width="20" transform="translate(100,100)">
-												<path stroke="#EB7D4B" d="M 0,-100 A 100,100 0 0,1 86.6,-50"/>
-												<path stroke="#EB7D4B" d="M 86.6,-50 A 100,100 0 0,1 86.6,50"/>
-												<path stroke="#EB7D4B" d="M 86.6,50 A 100,100 0 0,1 0,100"/>
-												<path stroke="#EB7D4B" d="M 0,100 A 100,100 0 0,1 -86.6,50"/>
-												<path stroke="#EB7D4B" d="M -86.6,50 A 100,100 0 0,1 -86.6,-50"/>
-												<path stroke="#EB7D4B" d="M -86.6,-50 A 100,100 0 0,1 0,-100"/>
-											</g>
-										</svg>
-										<svg viewBox="-10 -10 220 220">
-											<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="520"></path>
-										</svg>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="portfolio">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="title">our portfolio</div>
-					<div class="subtitle">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>consectetur, adipisci velit, sed quia non numquam</div>
-					<div class="portfolio-items">
-						<nav class="portfolio-items-menu">
-							<ul class="pfi-menu">
-								<li><a href="#">all</a></li><li><a href="#">web</a></li><li><a href="#">apps</a></li><li><a href="#">icons</a></li>
-							</ul>
-						</nav>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="title-image"><img src="images/mac1.png" alt=""></div>
-							<div class="title-desc">isometric perspective mock-up</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="title-image"><img src="images/mac2.png" alt=""></div>
-							<div class="title-desc">time zone app ui</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="title-image"><img src="images/mac3.png" alt=""></div>
-							<div class="title-desc">viro media players ui</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="title-image"><img src="images/mac4.png" alt=""></div>
-							<div class="title-desc">blog / magazine flat ui kit</div>
-						</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="big-button"><a href="#">load more projects</a></div></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="testimonials">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="title">what people say about us</div>
-					<div class="subtitle">Our clients love us!</div>
-						<div class="testimonials-users">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 testimonials-user">
-								<div class="col-xs-3">
-									<img class="testimonials-image" src="http://placehold.it/95x95" alt="">
-								</div>
-								<div class="col-xs-9">
-									<div class="testimonials-comment">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</div>
-									<div class="testimonials-name">chanel iman</div>
-									<div class="testimonials-specialty">CEO of Pinterest</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 testimonials-user">
-								<div class="col-xs-3">
-									<img class="testimonials-image" src="http://placehold.it/95x95" alt="">
-								</div>
-								<div class="col-xs-9">
-									<div class="testimonials-comment">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</div>
-									<div class="testimonials-name">adriana lima</div>
-									<div class="testimonials-specialty">Founder of Instagram</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 testimonials-user">
-								<div class="col-xs-3">
-									<img class="testimonials-image" src="http://placehold.it/95x95" alt="">
-								</div>
-								<div class="col-xs-9">
-									<div class="testimonials-comment">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</div>
-									<div class="testimonials-name">anne hathaway</div>
-									<div class="testimonials-specialty">Lead Designer at Behance</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 testimonials-user">
-								<div class="col-xs-3">
-									<img class="testimonials-image" src="http://placehold.it/95x95" alt="">
-								</div>
-								<div class="col-xs-9">
-									<div class="testimonials-comment">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</div>
-									<div class="testimonials-name">chanel iman</div>
-									<div class="testimonials-specialty">Co-Founder of Shazam</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="get-in-touch">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="title">get in touch</div>
-					<div class="subtitle">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</div>
-					<form action="post">
-						<div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-							<input type="text" name="username" class="get-in-touch--username" value="" placeholder="Your name *">
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-10 col-md-offset-0 col-sm-offset-1 col-xs-12">
-							<input type="text" name="email" class="get-in-touch--email" value="" placeholder="Your Email *">
-						</div>
-						<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-							<textarea name="message" id="" class="get-in-touch--message" placeholder="Your message *"></textarea>
-						</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<input type="submit" class="get-in-touch--button" value="send message">
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		<footer>
-			<div class="row">
-				<div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-					<ul class="social">
-							<li><a href="">Facebook</a></li>
-							<li><a href="">Twitter</a></li>
-							<li><a href="">Google+</a></li>
-							<li><a href="">LinkedIn</a></li>
-							<li><a href="">Behance</a></li>
-							<li><a href="">Dribbble</a></li>
-							<li><a href="">Github</a></li>
-						</ul>
-				</div>
-			</div>
-		</footer>
-	</body>
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title">services we provide</div>
+            <div class="subtitle">We are working with both individuals and 
+              businesses from all over the globe<br>to create awesome websites 
+              and applications.
+            </div>
+          </div>
+        </div>	
+        <div class="row">
+          <div class="col-3">
+            <div class="services-col-wrap">
+              <img src="img/services/flag-icon.png" alt="flag-icon">
+              <div class="little-title">branding</div>
+              <div class="little-subtitle">Lorem ipsum dolor sit amet, 
+                consectetuer adipiscing elit, sed diam nonummy nibh.
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="services-col-wrap">
+              <img src="img/services/crayon-icon.png" alt="crayon-icon">
+              <div class="little-title">design</div>
+              <div class="little-subtitle">Sed ut perspiciatis unde omnis iste 
+                natus error sit voluptatem
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="services-col-wrap">
+              <img src="img/services/gears-icon.png" alt="gears-icon">
+              <div class="little-title">development</div>
+              <div class="little-subtitle">At vero eos et accusamus et iusto 
+                odio dignissimos qui blanditiis praesentium.
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="services-col-wrap">
+              <img src="img/services/rocket-icon.png" alt="rocket-icon">
+              <div class="little-title">rocket sciense</div>
+              <div class="little-subtitle">Et harum quidem rerum est et 
+                expedita distinctio. Nam libero tempore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <div class="team">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="title">meet our beautiful team</div>
+          <div class="subtitle">We are a small team of designers and developers, who help brands with big ideas.</div>
+          <div class="team-members">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="image-member"><img src="http://placehold.it/200x200" alt=""></div>
+              <div class="little-title">anne hathaway</div>
+              <div class="little-specialty">CEO / Marketing Guru</div>
+              <div class="little-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</div>
+              <div class="social-icons">
+                <a href="#">
+                  <div class="circle icon1"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon2"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon3"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon4"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="image-member"><img src="http://placehold.it/200x200" alt=""></div>
+              <div class="little-title">kate upton</div>
+              <div class="little-specialty">Creative Director</div>
+              <div class="little-subtitle">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</div>
+              <div class="social-icons">
+                <a href="">
+                  <div class="circle icon1"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon2"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon3"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon4"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="image-member"><img src="http://placehold.it/200x200" alt=""></div>
+              <div class="little-title">olivia wilde</div>
+              <div class="little-specialty">Lead Designer</div>
+              <div class="little-subtitle">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</div>
+              <div class="social-icons">
+                <a href="#">
+                  <div class="circle icon1"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon2"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon3"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon4"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="image-member"><img src="http://placehold.it/200x200" alt=""></div>
+              <div class="little-title">ashley greene</div>
+              <div class="little-specialty">SEO / Developer</div>
+              <div class="little-subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</div>
+              <div class="social-icons">
+                <a href="#">
+                  <div class="circle icon1"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon2"></div>
+                </a>
+                <a href="">
+                  <div class="circle icon3"></div>
+                </a>
+                <a href="#">
+                  <div class="circle icon4"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skills">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="title">we got skills!</div>
+          <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div class="skills-experience">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="i-need-center">
+                <ul class="progress-svggg">
+                  <li data-name="web design" data-percent="90%">
+                      <svg viewBox="-10 -10 220 220">
+                      <g fill="none" stroke-width="20" transform="translate(100,100)">
+                        <path stroke="#2FB9E7" d="M 0,-100 A 100,100 0 0,1 86.6,-50"/>
+                        <path stroke="#2FB9E7" d="M 86.6,-50 A 100,100 0 0,1 86.6,50"/>
+                        <path stroke="#2FB9E7" d="M 86.6,50 A 100,100 0 0,1 0,100"/>
+                        <path stroke="#2FB9E7" d="M 0,100 A 100,100 0 0,1 -86.6,50"/>
+                        <path stroke="#2FB9E7" d="M -86.6,50 A 100,100 0 0,1 -86.6,-50"/>
+                        <path stroke="#2FB9E7" d="M -86.6,-50 A 100,100 0 0,1 0,-100"/>
+                      </g>
+                    </svg>
+                    <svg viewBox="-10 -10 220 220">
+                      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="565"></path>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="i-need-center">
+                <ul class="progress-svggg">
+                  <li data-name="html / css" data-percent="75%">
+                    <svg viewBox="-10 -10 220 220">
+                      <g fill="none" stroke-width="20" transform="translate(100,100)">
+                        <path stroke="#D7457F" d="M 0,-100 A 100,100 0 0,1 86.6,-50"/>
+                        <path stroke="#D7457F" d="M 86.6,-50 A 100,100 0 0,1 86.6,50"/>
+                        <path stroke="#D7457F" d="M 86.6,50 A 100,100 0 0,1 0,100"/>
+                        <path stroke="#D7457F" d="M 0,100 A 100,100 0 0,1 -86.6,50"/>
+                        <path stroke="#D7457F" d="M -86.6,50 A 100,100 0 0,1 -86.6,-50"/>
+                        <path stroke="#D7457F" d="M -86.6,-50 A 100,100 0 0,1 0,-100"/>
+                      </g>
+                    </svg>
+                    <svg viewBox="-10 -10 220 220">
+                      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="470"></path>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="i-need-center">
+                <ul class="progress-svggg">
+                  <li data-name="graphic design" data-percent="70%">
+                    <svg viewBox="-10 -10 220 220">
+                      <g fill="none" stroke-width="20" transform="translate(100,100)">
+                        <path stroke="#15C7A7" d="M 0,-100 A 100,100 0 0,1 86.6,-50"/>
+                        <path stroke="#15C7A7" d="M 86.6,-50 A 100,100 0 0,1 86.6,50"/>
+                        <path stroke="#15C7A7" d="M 86.6,50 A 100,100 0 0,1 0,100"/>
+                        <path stroke="#15C7A7" d="M 0,100 A 100,100 0 0,1 -86.6,50"/>
+                        <path stroke="#15C7A7" d="M -86.6,50 A 100,100 0 0,1 -86.6,-50"/>
+                        <path stroke="#15C7A7" d="M -86.6,-50 A 100,100 0 0,1 0,-100"/>
+                      </g>
+                    </svg>
+                    <svg viewBox="-10 -10 220 220">
+                      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="435"></path>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="i-need-center">
+                <ul class="progress-svggg">
+                  <li data-name="ui / ux" data-percent="85%">
+                    <svg viewBox="-10 -10 220 220">
+                      <g fill="none" stroke-width="20" transform="translate(100,100)">
+                        <path stroke="#EB7D4B" d="M 0,-100 A 100,100 0 0,1 86.6,-50"/>
+                        <path stroke="#EB7D4B" d="M 86.6,-50 A 100,100 0 0,1 86.6,50"/>
+                        <path stroke="#EB7D4B" d="M 86.6,50 A 100,100 0 0,1 0,100"/>
+                        <path stroke="#EB7D4B" d="M 0,100 A 100,100 0 0,1 -86.6,50"/>
+                        <path stroke="#EB7D4B" d="M -86.6,50 A 100,100 0 0,1 -86.6,-50"/>
+                        <path stroke="#EB7D4B" d="M -86.6,-50 A 100,100 0 0,1 0,-100"/>
+                      </g>
+                    </svg>
+                    <svg viewBox="-10 -10 220 220">
+                      <path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="520"></path>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="title">our portfolio</div>
+          <div class="subtitle">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>consectetur, adipisci velit, sed quia non numquam</div>
+          <div class="portfolio-items">
+            <nav class="portfolio-items-menu">
+              <ul class="pfi-menu">
+                <li><a href="#">all</a></li><li><a href="#">web</a></li><li><a href="#">apps</a></li><li><a href="#">icons</a></li>
+              </ul>
+            </nav>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="title-image"><img src="images/mac1.png" alt=""></div>
+              <div class="title-desc">isometric perspective mock-up</div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="title-image"><img src="images/mac2.png" alt=""></div>
+              <div class="title-desc">time zone app ui</div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="title-image"><img src="images/mac3.png" alt=""></div>
+              <div class="title-desc">viro media players ui</div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="title-image"><img src="images/mac4.png" alt=""></div>
+              <div class="title-desc">blog / magazine flat ui kit</div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="big-button"><a href="#">load more projects</a></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="title">what people say about us</div>
+          <div class="subtitle">Our clients love us!</div>
+            <div class="testimonials-users">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 testimonials-user">
+                <div class="col-xs-3">
+                  <img class="testimonials-image" src="http://placehold.it/95x95" alt="">
+                </div>
+                <div class="col-xs-9">
+                  <div class="testimonials-comment">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</div>
+                  <div class="testimonials-name">chanel iman</div>
+                  <div class="testimonials-specialty">CEO of Pinterest</div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 testimonials-user">
+                <div class="col-xs-3">
+                  <img class="testimonials-image" src="http://placehold.it/95x95" alt="">
+                </div>
+                <div class="col-xs-9">
+                  <div class="testimonials-comment">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</div>
+                  <div class="testimonials-name">adriana lima</div>
+                  <div class="testimonials-specialty">Founder of Instagram</div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 testimonials-user">
+                <div class="col-xs-3">
+                  <img class="testimonials-image" src="http://placehold.it/95x95" alt="">
+                </div>
+                <div class="col-xs-9">
+                  <div class="testimonials-comment">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</div>
+                  <div class="testimonials-name">anne hathaway</div>
+                  <div class="testimonials-specialty">Lead Designer at Behance</div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 testimonials-user">
+                <div class="col-xs-3">
+                  <img class="testimonials-image" src="http://placehold.it/95x95" alt="">
+                </div>
+                <div class="col-xs-9">
+                  <div class="testimonials-comment">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</div>
+                  <div class="testimonials-name">chanel iman</div>
+                  <div class="testimonials-specialty">Co-Founder of Shazam</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="get-in-touch">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="title">get in touch</div>
+          <div class="subtitle">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</div>
+          <form action="post">
+            <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+              <input type="text" name="username" class="get-in-touch--username" value="" placeholder="Your name *">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-10 col-md-offset-0 col-sm-offset-1 col-xs-12">
+              <input type="text" name="email" class="get-in-touch--email" value="" placeholder="Your Email *">
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+              <textarea name="message" id="" class="get-in-touch--message" placeholder="Your message *"></textarea>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <input type="submit" class="get-in-touch--button" value="send message">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+          <ul class="social">
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">Google+</a></li>
+              <li><a href="">LinkedIn</a></li>
+              <li><a href="">Behance</a></li>
+              <li><a href="">Dribbble</a></li>
+              <li><a href="">Github</a></li>
+            </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
