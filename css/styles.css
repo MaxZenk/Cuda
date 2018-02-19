@@ -140,10 +140,14 @@ ul li,
   padding: 25px 30px 0;
 }
 .services,
-.team {
-  padding: 115px 0 120px;
+.team,
+.skills,
+.portfolio,
+.testimonials,
+.get-in-touch,
+.footer {
+  padding: 90px 0 125px;
 }
-
 .section-title {
   font-size: 40px;
   font-weight: 700;
@@ -238,13 +242,9 @@ ul li,
   color: #30bae7;
 }
 .skills {
-  padding: 115px 0 110px;
-
   background-color: #fff;
 }
 .portfolio {
-  padding: 120px 0 100px;
-
   color: #393939;
   background-color: #fd9;
 }
@@ -301,8 +301,6 @@ ul li,
   background-color: #17c2a4;
 }
 .testimonials {
-  padding: 120px 0 130px;
-
   background-color: #d74580;
 }
 .testimonials-user {
@@ -329,8 +327,6 @@ ul li,
   color: #fd9;
 }
 .get-in-touch {
-  padding: 120px 0 110px;
-
   background-color: #3c5399;
 }
 .get-in-touch .section-subtitle {
