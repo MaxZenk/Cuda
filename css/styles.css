@@ -169,7 +169,7 @@ ul li,
   font-weight: 400;
   line-height: 26px;
 
-  max-width: 780px;
+  max-width: 785px;
   margin: 0 auto 70px;
 
   letter-spacing: .36px;
@@ -214,12 +214,10 @@ ul li,
   margin: 0 5px;
 
   background-repeat: no-repeat;
-      background-position-x: center;
-  -ms-background-position-x: center;
-      background-position-y: center;
-  -ms-background-position-y: center;
-  -webkit-background-size: 15px 15px;
-          background-size: 15px 15px;
+      background-position: center;
+  background-size: 15px 15px;
+
+  -ms-background-position: center;
 }
 .icon1 {
   background-image: url(../img/team/facebook-logo.svg);
@@ -236,9 +234,10 @@ ul li,
 .little-specialty {
   font-size: 16px;
   line-height: 18px;
-  letter-spacing: 0.32px;
 
   padding-top: 15px;
+
+  letter-spacing: .32px;
 
   color: #30bae7;
 }
@@ -308,13 +307,16 @@ ul li,
   margin: 70px 0 30px;
 }
 .testimonials-image {
-  border-radius: 50%;
   display: inline-block;
+
   vertical-align: top;
+
+  border-radius: 50%;
 }
 
 .testimonials-text-wrap {
   display: inline-block;
+
   max-width: 344px;
   margin-left: 50px;
 }
@@ -343,6 +345,19 @@ ul li,
   max-width: 860px;
   margin: 0 auto;
 }
+
+::-moz-placeholder {
+  color: #fff;
+}
+:-moz-placeholder {
+  color: #fff;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
 input,
 textarea:focus {
   outline: none;
@@ -350,11 +365,10 @@ textarea:focus {
 .get-in-touch--username,
 .get-in-touch--email {
   font-size: 18px;
-  line-height: 45px;
-
+  
   width: 100%;
   max-width: 414px;
-  padding: 5px 0 5px 25px;
+  padding: 20px 0 20px 25px;
 
   border: none;
   border-radius: 5px;
