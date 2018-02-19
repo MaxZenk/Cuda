@@ -252,19 +252,15 @@ ul > li {
   background-color: #fd9;
 }
 .portfolio-items-menu {
-  padding: 40px 0 65px;
+  margin: 35px 0 60px;
 
   text-align: center;
 }
-.pfi-menu {
-  margin: 0;
-  padding: 0;
-}
 .pfi-menu li:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 .pfi-menu li {
-  padding-right: 10px;
+  margin-right: 5px;
 }
 .portfolio-items-menu ul li a:hover {
   background-color: #fff;
