@@ -72,7 +72,7 @@ ul li,
 .portfolio-items-menu,
 .portfolio .title-desc,
 .section-title-desc,
-.social a {
+.social {
   text-align: center;
 }
 .header .main-menu a,
@@ -342,6 +342,10 @@ ul li,
 .get-in-touch .section-subtitle {
   padding-bottom: 75px;
 }
+.get-in-touch-form {
+  max-width: 860px;
+  margin: 0 auto;
+}
 input,
 textarea:focus {
   outline: none;
@@ -385,7 +389,6 @@ textarea:focus {
   background-color: #334b8e;
 }
 .social {
-  max-width: 940px;
   margin: 0 auto;
 }
 .social a:hover {
@@ -397,7 +400,7 @@ textarea:focus {
 
   display: block;
 
-  padding: 30px 45px 20px 0;
+  margin: 35px 29px;
 
   text-transform: none;
 }
