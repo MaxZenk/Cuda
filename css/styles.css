@@ -47,7 +47,7 @@ ul li,
 
   letter-spacing: .2px;
 }
-.header .main-menu ul li a:hover {
+.header .main-menu a:hover {
   border-radius: 5px;
   background-color: #633a79;
 }
@@ -57,6 +57,7 @@ ul li,
   line-height: 48.8px;
 
   margin: 125px auto 55px;
+
   letter-spacing: -.2px;
 }
 .header .tagline,
@@ -149,6 +150,7 @@ ul li,
   font-size: 40px;
   font-weight: 700;
   line-height: 30px;
+
   letter-spacing: 4px;
 }
 .section-title:after {
@@ -168,7 +170,7 @@ ul li,
   line-height: 26px;
 
   max-width: 780px;
-  margin: 0 auto;
+  margin: 0 auto 65px;
 
   letter-spacing: .36px;
 }
@@ -234,8 +236,10 @@ ul li,
 .little-specialty {
   font-size: 16px;
   line-height: 18px;
+  letter-spacing: 0.32px;
 
   padding-top: 15px;
+
   color: #30bae7;
 }
 .skills {
@@ -305,13 +309,22 @@ ul li,
 }
 .testimonials-image {
   border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
 }
+
+.testimonials-text-wrap {
+  display: inline-block;
+  max-width: 344px;
+  margin-left: 50px;
+}
+
 .testimonials-comment {
   font-size: 21px;
   font-style: italic;
   line-height: 31px;
 
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 .testimonials-name {
   font-size: 24px;
@@ -328,6 +341,10 @@ ul li,
 }
 .get-in-touch .section-subtitle {
   padding-bottom: 75px;
+}
+input,
+textarea:focus {
+  outline: none;
 }
 .get-in-touch--username,
 .get-in-touch--email {
