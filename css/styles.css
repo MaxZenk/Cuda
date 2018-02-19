@@ -1,28 +1,26 @@
-
-
 body {
   font-family: 'Titillium Web', sans-serif;
-
-  position: relative;
-
-  min-width: 360px;
 }
 a {
   text-decoration: none;
 }
-
-ul > li {
+ul li {
   font-size: 16px;
 
   display: inline-block;
 
   list-style: none;
-
+}
+ul li,
+.big-button,
+.little-title,
+.section-title,
+.section-title-desc,
+.portfolio .title-desc,
+.testimonials-name,
+.get-in-touch--button {
   text-transform: uppercase;
 }
-
-
-
 .header {
   padding: 60px 0 145px;
 
@@ -62,19 +60,17 @@ ul > li {
 
   text-align: center;
   letter-spacing: -.2px;
-
-  
 }
 .header .main-menu a,
 .header .tagline,
 .big-button,
-.services,  
+.services,
+.get-in-touch--button,
 .social a {
   color: #fff;
 }
 .big-button {
   font-size: 18px;
-  font-weight: 400;
   line-height: 26px;
 
   display: block;
@@ -85,8 +81,7 @@ ul > li {
 
   text-align: center;
   letter-spacing: .27px;
-  text-transform: uppercase;
-  
+
   border-radius: 5px;
 }
 .header .big-button {
@@ -99,7 +94,6 @@ ul > li {
   line-height: 18px;
 
   text-align: center;
-  text-transform: uppercase;
 }
 .little-subtitle {
   font-size: 16px;
@@ -119,15 +113,17 @@ ul > li {
 }
 .services-col-img {
   position: relative;
+
   height: 145px;
 }
 .services-col-img img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
 }
 .services .little-title {
   padding-top: 50px;
@@ -147,7 +143,6 @@ ul > li {
 
   text-align: center;
   letter-spacing: 4px;
-  text-transform: uppercase;
 }
 .section-title:after {
   display: block;
@@ -172,8 +167,8 @@ ul > li {
   letter-spacing: .36px;
 }
 .team {
-  background-color: #e7f1f8;
   color: #3c4761;
+  background-color: #e7f1f8;
 }
 .team .little-title {
   padding-top: 35px;
@@ -242,6 +237,7 @@ ul > li {
 }
 .skills {
   padding: 115px 0 110px;
+
   color: #3c4761;
   background-color: #fff;
 }
@@ -262,18 +258,18 @@ ul > li {
 .pfi-menu li {
   margin-right: 5px;
 }
-.portfolio-items-menu ul li a:hover {
+.portfolio-items-menu a:hover {
   background-color: #fff;
 }
-.portfolio-items-menu ul li a {
+.portfolio-items-menu a {
   font-size: 18px;
   line-height: 19.5px;
-
-  letter-spacing: .36px;
 
   display: block;
 
   padding: 8px 25px;
+
+  letter-spacing: .36px;
 
   color: #393939;
   border-radius: 5px;
@@ -292,20 +288,21 @@ ul > li {
   margin: 30px 0 65px;
 
   text-align: center;
-  text-transform: uppercase;
 }
 .portfolio .title-desc {
   font-size: 18px;
-  text-align: center; 
-  margin: 25px 0 65px;
   line-height: 19.5px;
-  text-transform: uppercase;
-  letter-spacing: 0.36px;
+
+  margin: 25px 0 65px;
+
+  text-align: center;
+  letter-spacing: .36px;
 }
 .portfolio .big-button {
+  margin-top: 10px;
+
   border-bottom: 4px solid #14a58c;
   background-color: #17c2a4;
-  margin-top: 10px;
 }
 .testimonials {
   padding: 120px 0 130px;
@@ -328,8 +325,6 @@ ul > li {
 .testimonials-name {
   font-size: 24px;
   line-height: 26px;
-
-  text-transform: uppercase;
 }
 .testimonials-specialty {
   font-size: 18px;
@@ -344,10 +339,6 @@ ul > li {
 }
 .get-in-touch .section-subtitle {
   padding-bottom: 75px;
-}
-.get-in-touch .big-button {
-  border-bottom: 4px solid #299ec5;
-  background-color: #30bae7;
 }
 .get-in-touch--username,
 .get-in-touch--email {
@@ -377,23 +368,17 @@ ul > li {
   background: #273a71;
 }
 .get-in-touch--button {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 70px;
 
-  display: block;
 
   width: 290px;
   height: 70px;
-  margin: 55px auto auto;
+  margin: 55px auto 0;
 
-  text-align: center;
-  text-transform: uppercase;
+  
 
-  color: #fff;
   border: none;
   border-bottom: 4px solid #289dc5;
-  border-radius: 5px;
+ 
   background-color: #2fb9e7;
 }
 .footer {
@@ -416,6 +401,4 @@ ul > li {
 
   text-align: center;
   text-transform: none;
-
-  
 }
