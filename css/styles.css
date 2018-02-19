@@ -93,7 +93,6 @@ ul li,
   margin: 0 auto;
   padding: 20px 0;
 
-  
   letter-spacing: .27px;
 
   border-radius: 5px;
@@ -118,7 +117,6 @@ ul li,
 .services .section-subtitle {
   margin-bottom: 70px;
 }
-
 .services-col-img {
   position: relative;
 
@@ -144,8 +142,7 @@ ul li,
 .skills,
 .portfolio,
 .testimonials,
-.get-in-touch,
-.footer {
+.get-in-touch {
   padding: 90px 0 125px;
 }
 .section-title {
