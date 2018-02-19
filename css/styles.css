@@ -57,9 +57,22 @@ ul li,
   line-height: 48.8px;
 
   margin: 125px auto 55px;
-
-  text-align: center;
   letter-spacing: -.2px;
+}
+.header .tagline,
+.big-button,
+.little-title,
+.little-subtitle,
+.services-col-wrap,
+.section-title,
+.section-subtitle,
+.social-icons,
+.little-specialty,
+.portfolio-items-menu,
+.portfolio .title-desc,
+.section-title-desc,
+.social a {
+  text-align: center;
 }
 .header .main-menu a,
 .header .tagline,
@@ -79,7 +92,7 @@ ul li,
   margin: 0 auto;
   padding: 20px 0;
 
-  text-align: center;
+  
   letter-spacing: .27px;
 
   border-radius: 5px;
@@ -92,25 +105,19 @@ ul li,
   font-size: 24px;
   font-weight: bold;
   line-height: 18px;
-
-  text-align: center;
 }
 .little-subtitle {
   font-size: 16px;
   font-weight: 200;
   line-height: 24px;
-
-  text-align: center;
 }
 .services {
   background-color: #16c2a3;
 }
 .services .section-subtitle {
-  margin-bottom: 70px;;
+  margin-bottom: 70px;
 }
-.services-col-wrap {
-  text-align: center;
-}
+
 .services-col-img {
   position: relative;
 
@@ -140,8 +147,6 @@ ul li,
   font-size: 40px;
   font-weight: 700;
   line-height: 30px;
-
-  text-align: center;
   letter-spacing: 4px;
 }
 .section-title:after {
@@ -163,12 +168,14 @@ ul li,
   max-width: 780px;
   margin: 0 auto;
 
-  text-align: center;
   letter-spacing: .36px;
 }
 .team {
-  color: #3c4761;
   background-color: #e7f1f8;
+}
+.team,
+.skills {
+  color: #3c4761;
 }
 .team .little-title {
   padding-top: 35px;
@@ -185,9 +192,6 @@ ul li,
 
   border-radius: 50%;
   background-color: #878787;
-}
-.social-icons {
-  text-align: center;
 }
 .social-icons a {
   display: inline-block;
@@ -230,15 +234,11 @@ ul li,
   line-height: 18px;
 
   padding-top: 15px;
-
-  text-align: center;
-
   color: #30bae7;
 }
 .skills {
   padding: 115px 0 110px;
 
-  color: #3c4761;
   background-color: #fff;
 }
 .portfolio {
@@ -249,8 +249,6 @@ ul li,
 }
 .portfolio-items-menu {
   margin: 35px 0 60px;
-
-  text-align: center;
 }
 .pfi-menu li:last-child {
   margin-right: 0;
@@ -286,8 +284,6 @@ ul li,
   line-height: 20px;
 
   margin: 30px 0 65px;
-
-  text-align: center;
 }
 .portfolio .title-desc {
   font-size: 18px;
@@ -295,7 +291,6 @@ ul li,
 
   margin: 25px 0 65px;
 
-  text-align: center;
   letter-spacing: .36px;
 }
 .portfolio .big-button {
@@ -368,17 +363,11 @@ ul li,
   background: #273a71;
 }
 .get-in-touch--button {
-
-
   width: 290px;
-  height: 70px;
   margin: 55px auto 0;
-
-  
 
   border: none;
   border-bottom: 4px solid #289dc5;
- 
   background-color: #2fb9e7;
 }
 .footer {
@@ -399,6 +388,5 @@ ul li,
 
   padding: 30px 45px 20px 0;
 
-  text-align: center;
   text-transform: none;
 }
