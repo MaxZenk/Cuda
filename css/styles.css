@@ -186,7 +186,8 @@ ul li,
   padding-top: 35px;
 }
 .team .little-subtitle {
-  padding: 25px 25px;
+  margin: 25px auto;
+  max-width: 200px;
 }
 .member-circle-team {
   margin: 0 auto;
