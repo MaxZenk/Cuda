@@ -136,8 +136,10 @@ ul li,
 .services .little-title {
   padding-top: 50px;
 }
-.services .little-subtitle {
-  padding: 25px 30px 0;
+.services .little-subtitle,
+.team .little-subtitle {
+  margin: 25px auto;
+  max-width: 200px;
 }
 .services,
 .team,
@@ -184,10 +186,6 @@ ul li,
 }
 .team .little-title {
   padding-top: 35px;
-}
-.team .little-subtitle {
-  margin: 25px auto;
-  max-width: 200px;
 }
 .member-circle-team {
   margin: 0 auto;
