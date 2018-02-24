@@ -300,21 +300,19 @@ ul li,
 .testimonials-user {
   margin: 70px 0 30px;
 }
-.testimonials-image {
+.member-circle-testimonials {
   display: inline-block;
 
   vertical-align: top;
 
   border-radius: 50%;
 }
-
 .testimonials-text-wrap {
   display: inline-block;
 
   max-width: 344px;
   margin-left: 50px;
 }
-
 .testimonials-comment {
   font-size: 21px;
   font-style: italic;
