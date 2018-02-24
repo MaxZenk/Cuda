@@ -1,3 +1,82 @@
+@-webkit-keyframes load {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-moz-keyframes load {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes load {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Item */
+
+.progress-svggg>li {
+  position: relative;
+}
+
+.progress-svggg>li:before {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  position: absolute;
+  bottom: 0;
+  left: -20%;
+  width: 140%;
+  content: attr(data-name);
+  letter-spacing: .48px;
+  text-transform: uppercase;
+}
+
+.progress-svggg>li:after {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 20.84px;
+  position: absolute;
+  top: 4.5rem;
+  left: .5rem;
+  width: 100%;
+  content: attr(data-percent);
+  letter-spacing: .86px;
+  color: #3c4761;
+}
+
+.progress-svggg svg {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 45px;
+}
+
+.progress-svggg svg:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.progress-svggg svg:nth-child(2) path {
+  -webkit-animation: load 5s;
+  -moz-animation: load 5s;
+  -o-animation: load 5s;
+  animation: load 5s;
+  fill: none;
+  stroke: #dfe8ed;
+  stroke-dasharray: 629;
+  stroke-width: 21;
+}
+
+
 body {
   font-family: 'Titillium Web', sans-serif;
 }
@@ -411,6 +490,72 @@ textarea:focus {
   text-transform: none;
 }
 
-@media (max-width: 1200px) {
-  
+@media (max-width: 1199px) {
+  .testimonials-text-wrap {
+    max-width: 325px;
+    margin-left: 25px;
+  }
+  .testimonials-comment {
+    font-size: 19px;
+  }
+  .testimonials-name {
+    font-size: 20px;
+  }
+  .testimonials-specialty {
+    font-size: 16px;
+  }
+  .social a {
+    font-size: 21px;
+  }
+}
+@media (max-width: 991px) {
+  .header .tagline {
+    font-size: 37px;
+  }
+  .little-title {
+    font-size: 19px;
+  }
+  .little-specialty {
+    font-size: 15px;
+  }
+  .circle[class*='icon'] {
+    margin: 0 3px;
+    background-size: 14px 14px;
+  }
+  .circle {
+    width: 28px;
+    height: 28px;
+  }
+  .progress-svggg svg {
+    width: 8rem;
+    height: 8rem;
+  }
+  .progress-svggg>li:after {
+    font-size: 40px;
+    top: 3.5rem;
+  }
+  .progress-svggg>li:before {
+    font-size: 20px;
+  }
+  .testimonials-text-wrap {
+    max-width: 215px;
+    margin-left: 15px;
+  }
+  .testimonials-comment {
+    font-size: 14px;
+  }
+  .testimonials-name {
+    font-size: 17px;
+  }
+  .testimonials-specialty {
+    font-size: 13px;
+  }
+  .get-in-touch--username,
+  .get-in-touch--email {
+    max-width: 329px;
+  }
+  .social a {
+    font-size: 19px;
+    margin: 35px 15px;
+  }
 }
