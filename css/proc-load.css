@@ -27,10 +27,7 @@ load {
 
   text-align: center;
 }
-.i-need-center {
-  width: 240px;
-  margin: 20px auto;
-}
+
 /* Item */
 .progress-svggg > li {
   position: relative;
