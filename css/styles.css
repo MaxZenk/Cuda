@@ -188,11 +188,9 @@ ul li,
   padding: 25px 25px;
 }
 .image-member {
-  overflow: hidden;
-
   width: 200px;
   height: 200px;
-  margin: 75px auto 0;
+  margin: 0 auto;
 
   border-radius: 50%;
   background-color: #878787;
@@ -365,7 +363,7 @@ textarea:focus {
 .get-in-touch--username,
 .get-in-touch--email {
   font-size: 18px;
-  
+
   width: 100%;
   max-width: 414px;
   padding: 20px 0 20px 25px;
@@ -416,4 +414,10 @@ textarea:focus {
   margin: 35px 29px;
 
   text-transform: none;
+}
+
+@media (max-width: 992px) {
+  .team .little-subtitle {
+    padding: 25px 0;
+  }
 }
