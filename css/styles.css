@@ -187,15 +187,10 @@ ul li,
 .team .little-subtitle {
   padding: 25px 25px;
 }
-.member-circle {
-  width: 200px;
-  height: 200px;
+.member-circle-team {
   margin: 0 auto;
-
-  border-radius: 50%;
-  background-color: #878787;
+  display: block;
 }
-
 .social-icons a {
   display: inline-block;
 }
