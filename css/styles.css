@@ -411,11 +411,6 @@ textarea:focus {
   text-transform: none;
 }
 
-@media screen and (max-width: 1199px) {
-  .testimonials-text-wrap {
-    max-width: 300px;
-  }
-  .social a {
-    margin: 35px 23px;
-  }
+@media (max-width: 1200px) {
+  
 }
