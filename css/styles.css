@@ -57,8 +57,6 @@ ul li,
   line-height: 48.8px;
 
   margin: 125px auto 55px;
-
-  letter-spacing: -.2px;
 }
 .header .tagline,
 .big-button,
@@ -138,8 +136,8 @@ ul li,
 }
 .services .little-subtitle,
 .team .little-subtitle {
-  margin: 25px auto;
   max-width: 200px;
+  margin: 25px auto;
 }
 .services,
 .team,
@@ -188,8 +186,9 @@ ul li,
   padding-top: 35px;
 }
 .member-circle-team {
-  margin: 0 auto;
   display: block;
+
+  margin: 0 auto;
 }
 .social-icons a {
   display: inline-block;
@@ -310,15 +309,17 @@ ul li,
 .testimonials-text-wrap {
   display: inline-block;
 
-  max-width: 344px;
+  max-width: 358px;
   margin-left: 50px;
 }
 .testimonials-comment {
   font-size: 21px;
   font-style: italic;
-  line-height: 31px;
+  line-height: 31.2px;
 
   margin-bottom: 25px;
+
+  letter-spacing: .35px;
 }
 .testimonials-name {
   font-size: 24px;
@@ -410,8 +411,11 @@ textarea:focus {
   text-transform: none;
 }
 
-@media (max-width: 992px) {
-  .team .little-subtitle {
-    padding: 25px 0;
+@media screen and (max-width: 1199px) {
+  .testimonials-text-wrap {
+    max-width: 300px;
+  }
+  .sicial a {
+    margin: 35px 23px;
   }
 }
