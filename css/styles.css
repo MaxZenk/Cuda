@@ -9,13 +9,9 @@
     stroke-dashoffset: 0;
   }
 }
-
-/* Item */
-
 .progress-svggg > li {
   position: relative;
 }
-
 .progress-svggg > li:before {
   font-size: 24px;
   font-weight: 700;
@@ -31,7 +27,6 @@
   letter-spacing: .48px;
   text-transform: uppercase;
 }
-
 .progress-svggg > li:after {
   font-size: 50px;
   font-weight: 300;
@@ -48,13 +43,11 @@
 
   color: #3c4761;
 }
-
 .progress-svggg svg {
   width: 10rem;
   height: 10rem;
   margin-bottom: 45px;
 }
-
 .progress-svggg svg:nth-child(2) {
   position: absolute;
   top: 0;
@@ -75,8 +68,6 @@
   stroke-dasharray: 629;
   stroke-width: 21;
 }
-
-
 body {
   font-family: 'Titillium Web', sans-serif;
 }
@@ -446,9 +437,6 @@ textarea:focus {
   border-radius: 5px;
   background: #273a71;
 }
-.get-in-touch--username {
-  margin-right: 28px;
-}
 .get-in-touch--message {
   font-size: 18px;
   line-height: 18px;
@@ -489,8 +477,7 @@ textarea:focus {
 
   text-transform: none;
 }
-
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
   .testimonials-text-wrap {
     max-width: 325px;
     margin-left: 25px;
