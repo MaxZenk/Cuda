@@ -445,7 +445,7 @@ ul li,
   display: inline-block;
 
   max-width: 358px;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 .testimonials-comment {
@@ -559,7 +559,7 @@ textarea:focus {
   text-transform: none;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .testimonials-text-wrap {
     max-width: 325px;
     margin-left: 25px;
@@ -580,9 +580,9 @@ textarea:focus {
   .social a {
     font-size: 21px;
   }
-}
+} */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .header .tagline {
     font-size: 37px;
   }
@@ -649,3 +649,7 @@ textarea:focus {
     margin: 35px 15px;
   }
 }
+
+@media (max-width: 767px) {
+  
+} */
