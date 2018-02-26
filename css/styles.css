@@ -575,8 +575,9 @@ textarea:focus {
 
   .main-menu-ico {
     display: block;
-    margin: auto;
+
     width: 50px;
+    margin: auto;
   }
 
   .get-in-touch--username,
