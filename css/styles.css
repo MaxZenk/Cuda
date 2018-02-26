@@ -570,11 +570,13 @@ textarea:focus {
 
 @media (max-width: 991px) {
   .main-menu {
-     display: none;
-  } 
+    display: none;
+  }
 
   .main-menu-ico {
     display: block;
+    margin: auto;
+    width: 50px;
   }
 
   .get-in-touch--username,
