@@ -184,12 +184,19 @@ ul li,
   display: block;
 
   max-width: 293px;
-  margin: 0 auto;
+  
   padding: 20px 0;
 
   letter-spacing: .27px;
 
   border-radius: 5px;
+}
+
+.big-button,
+.get-in-touch-form,
+.member-circle-team,
+.socials {
+  margin: 0 auto;
 }
 
 .header .big-button {
@@ -299,7 +306,7 @@ ul li,
 .member-circle-team {
   display: block;
 
-  margin: 0 auto;
+  
 }
 
 .social-icons a {
@@ -436,7 +443,7 @@ ul li,
 .testimonials-text-wrap {
   display: inline-block;
 
-  max-width: 358px;
+  max-width: 375px;
   margin-left: 45px;
 }
 
@@ -468,7 +475,7 @@ ul li,
 
 .get-in-touch-form {
   max-width: 860px;
-  margin: 0 auto;
+  
 }
 
 ::-moz-placeholder {
@@ -530,10 +537,7 @@ textarea:focus {
 
 .footer {
   background-color: #334b8e;
-}
-
-.social {
-  margin: 0 auto;
+  padding: 35px 0;
 }
 
 .social a:hover {
@@ -546,8 +550,30 @@ textarea:focus {
 
   display: block;
 
-  margin: 35px 29px;
-
   text-transform: none;
 }
 
+.social li {
+  margin-right: 55px;
+}
+
+.social li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1199px) {
+  .testimonials-text-wrap {
+    margin-left: 25px;
+    max-width: 325px;
+  }
+  .testimonials-comment {
+    font-size: 18px;
+  }
+  .testimonials-name {
+    font-size: 21px;
+  }
+  .testimonials-specialty {
+    font-size: 16px;
+  }
+
+}
