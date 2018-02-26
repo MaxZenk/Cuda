@@ -122,6 +122,10 @@ ul li,
   float: right;
 }
 
+.main-menu-ico {
+  display: none;
+}
+
 .header .main-menu ul {
   margin: 0;
   padding: 0 10px 0 0;
@@ -568,6 +572,10 @@ textarea:focus {
   .main-menu {
      display: none;
   } 
+
+  .main-menu-ico {
+    display: block;
+  }
 
   .get-in-touch--username,
   .get-in-touch--email,
