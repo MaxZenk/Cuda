@@ -177,15 +177,31 @@ ul li,
 }
 
 .big-button {
-  font-size: 18px;
-  line-height: 26px;
-
   max-width: 293px;
   padding: 20px 0;
 
   letter-spacing: .27px;
 
   border-radius: 5px;
+}
+
+.big-button,
+.section-subtitle,
+.testimonials-specialty,
+.testimonials-name {
+  line-height: 26px;
+}
+
+.big-button,
+.section-subtitle,
+.portfolio-items-menu a,
+.section-title-desc,
+.portfolio-title-desc,
+.testimonials-specialty,
+.get-in-touch--username,
+.get-in-touch--email,
+.get-in-touch--message {
+  font-size: 18px;
 }
 
 .big-button,
@@ -280,9 +296,7 @@ ul li,
 }
 
 .section-subtitle {
-  font-size: 18px;
   font-weight: 400;
-  line-height: 26px;
 
   max-width: 785px;
   margin: 0 auto 70px;
@@ -382,7 +396,6 @@ ul li,
 }
 
 .portfolio-items-menu a {
-  font-size: 18px;
   line-height: 19.5px;
 
   padding: 5px 25px;
@@ -395,14 +408,12 @@ ul li,
 }
 
 .section-title-desc {
-  font-size: 18px;
   line-height: 20px;
 
   margin: 30px 0 65px;
 }
 
 .portfolio .title-desc {
-  font-size: 18px;
   line-height: 19.5px;
 
   margin: 25px 0 65px;
@@ -444,13 +455,9 @@ ul li,
 
 .testimonials-name {
   font-size: 24px;
-  line-height: 26px;
 }
 
 .testimonials-specialty {
-  font-size: 18px;
-  line-height: 26px;
-
   color: #fd9;
 }
 
@@ -485,8 +492,6 @@ textarea:focus {
 
 .get-in-touch--username,
 .get-in-touch--email {
-  font-size: 18px;
-
   width: 100%;
   max-width: 414px;
   padding: 20px 0 20px 25px;
@@ -497,7 +502,6 @@ textarea:focus {
 }
 
 .get-in-touch--message {
-  font-size: 18px;
   line-height: 18px;
 
   width: 100%;
@@ -557,5 +561,13 @@ textarea:focus {
   }
   .testimonials-specialty {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .get-in-touch--username,
+  .get-in-touch--email,
+  .get-in-touch--message {
+    font-size: 15px;
   }
 }
