@@ -145,8 +145,8 @@ ul li,
   font-size: 42.2px;
   font-weight: bold;
   line-height: 48.8px;
-  max-width: 905px;
 
+  max-width: 905px;
   margin: 125px auto 55px;
 }
 
@@ -181,7 +181,6 @@ ul li,
   line-height: 26px;
 
   max-width: 293px;
-  
   padding: 20px 0;
 
   letter-spacing: .27px;
@@ -324,7 +323,7 @@ ul li,
   margin: 0 5px;
 
   background-repeat: no-repeat;
-  background-position: center;
+      background-position: center;
   background-size: 15px 15px;
 
   -ms-background-position: center;
@@ -386,9 +385,7 @@ ul li,
   font-size: 18px;
   line-height: 19.5px;
 
-  display: block;
-
-  padding: 8px 25px;
+  padding: 5px 25px;
 
   letter-spacing: .36px;
 
@@ -463,7 +460,6 @@ ul li,
 
 .get-in-touch-form {
   max-width: 860px;
-  
 }
 
 ::-moz-placeholder {
@@ -524,8 +520,9 @@ textarea:focus {
 }
 
 .footer {
-  background-color: #334b8e;
   padding: 35px 0;
+
+  background-color: #334b8e;
 }
 
 .social a:hover {
@@ -549,8 +546,8 @@ textarea:focus {
 
 @media (max-width: 1199px) {
   .testimonials-text-wrap {
-    margin-left: 25px;
     max-width: 325px;
+    margin-left: 25px;
   }
   .testimonials-comment {
     font-size: 18px;
@@ -561,5 +558,4 @@ textarea:focus {
   .testimonials-specialty {
     font-size: 16px;
   }
-
 }
