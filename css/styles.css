@@ -130,12 +130,11 @@ ul li,
 .header .main-menu a {
   line-height: 32px;
 
-  display: block;
-
   padding: 0 1.13em;
 
   letter-spacing: .2px;
 }
+
 
 .header .main-menu a:hover {
   border-radius: 5px;
@@ -181,8 +180,6 @@ ul li,
   font-size: 18px;
   line-height: 26px;
 
-  display: block;
-
   max-width: 293px;
   
   padding: 20px 0;
@@ -190,6 +187,12 @@ ul li,
   letter-spacing: .27px;
 
   border-radius: 5px;
+}
+
+.big-button,
+.section-title:after,
+.member-circle-team {
+  display: block;
 }
 
 .big-button,
@@ -268,8 +271,6 @@ ul li,
 }
 
 .section-title:after {
-  display: block;
-
   width: 87px;
   height: 4px;
   margin: 20px auto 25px;
@@ -301,12 +302,6 @@ ul li,
 
 .team .little-title {
   padding-top: 35px;
-}
-
-.member-circle-team {
-  display: block;
-
-  
 }
 
 .social-icons a {
@@ -400,13 +395,6 @@ ul li,
   color: #393939;
   border-radius: 5px;
   background-color: #ebc985;
-}
-
-.section-title-image img {
-  display: block;
-
-  width: 100%;
-  height: 100%;
 }
 
 .section-title-desc {
