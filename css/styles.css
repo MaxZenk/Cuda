@@ -565,6 +565,10 @@ textarea:focus {
 }
 
 @media (max-width: 991px) {
+  .main-menu {
+     display: none;
+  } 
+
   .get-in-touch--username,
   .get-in-touch--email,
   .get-in-touch--message {
