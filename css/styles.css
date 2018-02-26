@@ -430,16 +430,8 @@ ul li,
   background-color: #d74580;
 }
 
-.testimonials-user {
-  margin: 70px 0 30px;
-}
-
 .member-circle-testimonials {
-  display: inline-block;
-
   vertical-align: top;
-
-  border-radius: 50%;
 }
 
 .testimonials-text-wrap {
@@ -560,97 +552,3 @@ textarea:focus {
   text-transform: none;
 }
 
-/* @media (max-width: 1200px) {
-  .testimonials-text-wrap {
-    max-width: 325px;
-    margin-left: 25px;
-  }
-
-  .testimonials-comment {
-    font-size: 19px;
-  }
-
-  .testimonials-name {
-    font-size: 20px;
-  }
-
-  .testimonials-specialty {
-    font-size: 16px;
-  }
-
-  .social a {
-    font-size: 21px;
-  }
-} */
-
-/* @media (max-width: 991px) {
-  .header .tagline {
-    font-size: 37px;
-  }
-
-  .little-title {
-    font-size: 19px;
-  }
-
-  .little-specialty {
-    font-size: 15px;
-  }
-
-  .circle[class*='icon'] {
-    margin: 0 3px;
-
-    background-size: 14px 14px;
-  }
-
-  .circle {
-    width: 28px;
-    height: 28px;
-  }
-
-  .progress-svggg svg {
-    width: 8rem;
-    height: 8rem;
-  }
-
-  .progress-svggg > li:after {
-    font-size: 40px;
-
-    top: 3.5rem;
-  }
-
-  .progress-svggg > li:before {
-    font-size: 20px;
-  }
-
-  .testimonials-text-wrap {
-    max-width: 215px;
-    margin-left: 15px;
-  }
-
-  .testimonials-comment {
-    font-size: 14px;
-  }
-
-  .testimonials-name {
-    font-size: 17px;
-  }
-
-  .testimonials-specialty {
-    font-size: 13px;
-  }
-
-  .get-in-touch--username,
-  .get-in-touch--email {
-    max-width: 329px;
-  }
-
-  .social a {
-    font-size: 19px;
-
-    margin: 35px 15px;
-  }
-}
-
-@media (max-width: 767px) {
-  
-} */
