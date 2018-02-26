@@ -146,6 +146,7 @@ ul li,
   font-size: 42.2px;
   font-weight: bold;
   line-height: 48.8px;
+  max-width: 905px;
 
   margin: 125px auto 55px;
 }
