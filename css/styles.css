@@ -441,8 +441,9 @@ ul li,
 }
 
 .member-circle-testimonials {
-  vertical-align: top;
   margin-bottom: 25px;
+
+  vertical-align: top;
 }
 
 .testimonials-col-wrap {
@@ -573,10 +574,10 @@ textarea:focus {
 
   .main-menu-ico {
     display: block;
+    float: right;
 
     width: 36px;
     margin-right: 25px;
-    float: right;
   }
 
   .services-col-wrap,
@@ -626,17 +627,151 @@ textarea:focus {
 }
 
 @media (max-width: 539px) {
-  .testimonials-text-wrap {
-    margin: 0 auto;
-    text-align: center;
-    display: block;
+  .big-button,
+  .section-subtitle,
+  .portfolio-items-menu a,
+  .section-title-desc,
+  .portfolio-title-desc,
+  .testimonials-specialty,
+  .get-in-touch--username,
+  .get-in-touch--email,
+  .get-in-touch--message {
+    font-size: 16px;
+    line-height: 20px;
   }
 
-    .social li {
-      margin-right: 5px;
-    }
+  .services-col-wrap,
+  .team-col-wrap,
+  .skills-experience,
+  .testimonials-col-wrap {
+    margin-bottom: 80px;
+  }
 
-    .social a {
-      font-size: 16px;
-    }
+  .services,
+  .team,
+  .skills,
+  .testimonials {
+    padding-bottom: 35px;
+  }
+
+  .little-title {
+    font-size: 20px;
+  }
+
+  .progress-svggg > li:before {
+    font-size: 20px;
+  }
+
+  .big-button {
+    max-width: 250px;
+    padding: 15px 0;
+  }
+
+  .section-title,
+  .header .tagline {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .portfolio-items-menu a {
+    padding: 5px 20px;
+  }
+
+  .testimonials-text-wrap {
+    display: block;
+
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .testimonials-name {
+    font-size: 22px;
+  }
+
+  .testimonials-comment {
+    font-size: 19px;
+  }
+
+  .get-in-touch--button {
+    padding: 15px 60px;
+  }
+
+  .social li {
+    margin-right: 5px;
+  }
+
+  .social a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 358px) {
+  .header .logo,
+  .main-menu-ico {
+    margin: 0;
+  }
+
+  .big-button {
+    max-width: 150px;
+    padding: 10px 0;
+  }
+
+  .big-button,
+  .section-subtitle,
+  .portfolio-items-menu a,
+  .section-title-desc,
+  .portfolio-title-desc,
+  .testimonials-specialty,
+  .get-in-touch--username,
+  .get-in-touch--email,
+  .get-in-touch--message {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .pfi-menu li {
+    margin-right: 3px;
+  }
+
+  .portfolio-items-menu a {
+    padding: 5px 5px;
+  }
+
+  .section-title,
+  .header .tagline {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .section-subtitle {
+    margin: 0 auto 50px;
+  }
+
+  .testimonials-comment {
+    font-size: 16px;
+    line-height: 18px;
+
+    margin-bottom: 15px;
+  }
+
+  .testimonials-name {
+    font-size: 20px;
+  }
+
+  .get-in-touch--username,
+  .get-in-touch--email {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 15px;
+  }
+
+  .get-in-touch--message {
+    height: 130px;
+    padding: 10px 15px;
+  }
+
+  .get-in-touch--button {
+    padding: 10px 15px;
+  }
 }
