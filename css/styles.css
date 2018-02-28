@@ -267,8 +267,8 @@ ul li,
 }
 
 .services .little-subtitle {
-   margin: 25px auto 0;
-   max-width: 200px;
+  max-width: 200px;
+  margin: 25px auto 0;
 }
 
 .team .little-subtitle {
@@ -280,7 +280,6 @@ ul li,
 .team,
 .skills,
 .portfolio,
-.testimonials,
 .get-in-touch {
   padding: 90px 0 125px;
 }
@@ -437,11 +436,17 @@ ul li,
 }
 
 .testimonials {
+  padding: 90px 0 0;
+
   background-color: #d74580;
 }
 
 .member-circle-testimonials {
   vertical-align: top;
+}
+
+.testimonials-col-wrap {
+  margin-bottom: 140px;
 }
 
 .testimonials-text-wrap {
@@ -574,22 +579,33 @@ textarea:focus {
     margin: auto;
   }
 
-  .get-in-touch--username,
-  .get-in-touch--email,
-  .get-in-touch--message {
-    font-size: 15px;
-  }
-  
   .services-col-wrap,
   .team-col-wrap,
-  .skills-experience {
-    margin-bottom: 100px; 
+  .skills-experience,
+  .testimonials-col-wrap {
+    margin-bottom: 100px;
   }
 
   .services,
   .team,
-  .skills {
+  .skills,
+  .testimonials {
     padding-bottom: 25px;
+  }
+
+  .testimonials-col-wrap {
+    text-align: center;
+  }
+
+  .testimonials-text-wrap {
+    text-align: left;
+    max-width: 375px;
+  }
+
+  .get-in-touch--username,
+  .get-in-touch--email,
+  .get-in-touch--message {
+    font-size: 15px;
   }
 
   .social li {
