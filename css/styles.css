@@ -589,11 +589,15 @@ textarea:focus {
   .get-in-touch--message {
     font-size: 15px;
   }
-  .services-col-wrap {
-    margin-bottom: 50px; 
+  
+  .services-col-wrap,
+  .team-col-wrap {
+    margin-bottom: 100px; 
   }
-  .services {
-    padding-bottom: 100px;
+
+  .services,
+  .team {
+    padding-bottom: 25px;
   }
-  .team .
+
 }
