@@ -4,12 +4,6 @@
   }
 }
 
-@-moz-keyframes load {
-  0% {
-    stroke-dashoffset: 0;
-  }
-}
-
 @keyframes load {
   0% {
     stroke-dashoffset: 0;
@@ -66,6 +60,7 @@
   margin-bottom: 0;
 
   -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
 
@@ -77,6 +72,10 @@
   stroke: #dfe8ed;
   stroke-dasharray: 629;
   stroke-width: 21;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -287,7 +286,7 @@ ul li,
 .section-title {
   font-size: 40px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 40px;
 
   letter-spacing: 4px;
 }
@@ -506,8 +505,8 @@ textarea:focus {
 .get-in-touch--username,
 .get-in-touch--email {
   width: 100%;
-  max-width: 414px;
   padding: 20px 0 20px 25px;
+  margin-bottom: 20px;
 
   border: none;
   border-radius: 5px;
@@ -519,7 +518,6 @@ textarea:focus {
 
   width: 100%;
   height: 200px;
-  margin-top: 20px;
   padding: 25px 15px;
 
   border: none;
@@ -598,16 +596,10 @@ textarea:focus {
   }
 
   .testimonials-text-wrap {
-    text-align: left;
     max-width: 375px;
-  }
 
-  .get-in-touch--username,
-  .get-in-touch--email,
-  .get-in-touch--message {
-    font-size: 15px;
+    text-align: left;
   }
-
   .social li {
     margin-right: 30px;
   }
@@ -615,4 +607,21 @@ textarea:focus {
   .social a {
     font-size: 20px;
   }
+}
+
+@media (max-width: 767px) {
+  .testimonials-text-wrap {
+    max-width: 365px;
+  }
+
+  .social li {
+    margin-right: 13px;
+  }
+
+  .social a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 575px) {
 }
