@@ -266,7 +266,10 @@ ul li,
   padding-top: 50px;
 }
 
-.services .little-subtitle,
+.services .little-subtitle {
+   margin: 25px auto 0;
+}
+
 .team .little-subtitle {
   max-width: 200px;
   margin: 25px auto;
@@ -584,5 +587,11 @@ textarea:focus {
   .get-in-touch--email,
   .get-in-touch--message {
     font-size: 15px;
+  }
+  .services-col-wrap {
+    margin-bottom: 50px; 
+  }
+  .services {
+    padding-bottom: 50px;
   }
 }
