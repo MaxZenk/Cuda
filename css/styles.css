@@ -597,8 +597,16 @@ textarea:focus {
   }
 
   .services,
-  .team {
+  .team,
+  .skills {
     padding-bottom: 25px;
   }
 
+  .social li {
+    margin-right: 30px;
+  }
+
+  .social a {
+    font-size: 20px;
+  }
 }
