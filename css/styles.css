@@ -591,7 +591,8 @@ textarea:focus {
   }
   
   .services-col-wrap,
-  .team-col-wrap {
+  .team-col-wrap,
+  .skills-experience {
     margin-bottom: 100px; 
   }
 
