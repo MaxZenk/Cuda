@@ -442,6 +442,7 @@ ul li,
 
 .member-circle-testimonials {
   vertical-align: top;
+  margin-bottom: 25px;
 }
 
 .testimonials-col-wrap {
@@ -505,8 +506,8 @@ textarea:focus {
 .get-in-touch--username,
 .get-in-touch--email {
   width: 100%;
-  padding: 20px 0 20px 25px;
   margin-bottom: 20px;
+  padding: 20px 0 20px 25px;
 
   border: none;
   border-radius: 5px;
@@ -623,5 +624,6 @@ textarea:focus {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 539px) {
+
 }
