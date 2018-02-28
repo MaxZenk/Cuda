@@ -558,17 +558,7 @@ textarea:focus {
 
 @media (max-width: 1199px) {
   .testimonials-text-wrap {
-    max-width: 325px;
-    margin-left: 25px;
-  }
-  .testimonials-comment {
-    font-size: 18px;
-  }
-  .testimonials-name {
-    font-size: 21px;
-  }
-  .testimonials-specialty {
-    font-size: 16px;
+    max-width: 305px;
   }
 }
 
