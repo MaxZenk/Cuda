@@ -574,8 +574,9 @@ textarea:focus {
   .main-menu-ico {
     display: block;
 
-    width: 50px;
-    margin: auto;
+    width: 36px;
+    margin-right: 25px;
+    float: right;
   }
 
   .services-col-wrap,
@@ -616,7 +617,7 @@ textarea:focus {
   }
 
   .social li {
-    margin-right: 13px;
+    margin-right: 10px;
   }
 
   .social a {
@@ -625,5 +626,17 @@ textarea:focus {
 }
 
 @media (max-width: 539px) {
+  .testimonials-text-wrap {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
 
+    .social li {
+      margin-right: 5px;
+    }
+
+    .social a {
+      font-size: 16px;
+    }
 }
